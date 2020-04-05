@@ -1,3 +1,6 @@
 <!--pages/home/home.wxml-->
 <text class = 'title'>HELLO WORLD</text>
 <button size="mini">ARE YOU OK?</button>
+
+<view>TAG2</view>
+<view>hello world</view>
