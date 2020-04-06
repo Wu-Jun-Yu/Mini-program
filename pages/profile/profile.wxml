@@ -1,0 +1,8 @@
+<!--pages/profile/profile.wxml-->
+<text>Welcome!</text>
+
+<view>{{counter}}</view>
+<button bindtap="ADD">+</button>
+<button open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">授权给我</button>
+<open-data type='userNickName'></open-data>
+<open-data type='userAvatarUrl'></open-data>

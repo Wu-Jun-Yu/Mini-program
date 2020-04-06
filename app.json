@@ -1,6 +1,32 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/about/about",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#00aaff",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "华工旧拾",
+    "backgroundColor": "#00ffff",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "assets/tarbar/个人.png",
+        "selectedIconPath": "assets/tarbar/个人.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "profile",
+        "iconPath": "assets/tarbar/搜索.png",
+        "selectedIconPath": "assets/tarbar/搜索.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap26.json"
 }
